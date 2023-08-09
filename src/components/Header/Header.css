@@ -1,14 +1,16 @@
 .header-content{
     min-height: 75vh;
-    background: linear-gradient(rgba(141, 39, 174, 0.3), rgba(141, 39, 174, 0.5)), url("../../images/library-img.jpg") center/cover no-repeat;
+    background:  url("https://images.pexels.com/photos/12064/pexels-photo-12064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center/cover no-repeat;
     flex-direction: column;
 }
 .header-title{
     font-size: 4.2rem;
+    color: #fff;
 }
 .header-text{
     margin-top: -1.8rem;
     margin-bottom: 2.8rem;
-    opacity: 0.8;
-    max-width: 770px;
+    opacity: 10;
+    max-width: 800px;
+    color: #fff;
 }
