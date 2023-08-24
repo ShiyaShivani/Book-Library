@@ -1,9 +1,12 @@
 import React from 'react';
 import "./About.css";
 import aboutImg from "../../images/about-img.jpg";
+// import Navbar from '../../components/Navbar/Navbar';
 
 const Abouts = () => {
   return (
+    <>
+    {/* <Navbar/> */}
     <section className='about'>
       <div className='container'>
         <div className='section-title'>
@@ -23,6 +26,7 @@ const Abouts = () => {
         </div>
       </div>
     </section>
+    </>
   )
 }
 
